@@ -1,0 +1,53 @@
+/* CSS declarations go here */
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit],select {
+    width: 60%;
+    background-color: rgb(72, 110, 110);
+    color: rgb(5, 4, 4);
+    padding: 8px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    margin: 14px 20px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #819599;
+    padding: 20px;
+}
+h2{
+    text-decoration: overline;
+}
+container{
+    align-self: center;
+    margin: 14px 20px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #819599;
+    padding: 20px; 
+}
